@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/be",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "ctx-core be",
 	"keywords": [
 		"ctx-core",
@@ -40,7 +40,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.4.3"
+		"ctx-core": "^6.4.4"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.0.2",
