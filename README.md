@@ -1,4 +1,4 @@
-# be
+# ctx-core/be
 
 A general purpose, modular, &amp; scalable context library for contextual state management. Keeps state encapsulated in the be_ memo functions. Useful for:
 
@@ -17,7 +17,11 @@ A general purpose, modular, &amp; scalable context library for contextual state 
 | be_ ns_ctx_      | 191 B |
 | be_ ctx_ ns_ctx_ | 191 B |
 
-The source of this library is in the [ctx-core](https://github.com/ctx-core/ctx-core) package in the `ctx-core/be` export. 
+The source of this library is in the [ctx-core](https://github.com/ctx-core/ctx-core) package.
+
+```ts
+import { be_ } from 'ctx-core/be'
+``` 
 
 ## install
 
@@ -49,7 +53,7 @@ i_am_memo_(another_ctx) // returns 123
 
 ## usage with a reaactive library such as rmemo
 
-The be function can hold reactive state. When `ctx` is dependency injected, the same reactive state can be held & used in other areas of the code base. This removes the need to define state in a particular order. ctx-core/be works with other reactive state management libraries as well.
+The be function can hold reactive state. Dependency injecting `ctx` allows sharing the same reactive state across in-process libraries. Calling state in a particular order is not necessary. Dependencies load before dependents. ctx-core/be works with any reactive state management library.
 
 [//]: @formatter:off
 ```ts
@@ -69,7 +73,7 @@ i_am_rmemo$_(ctx)()     // returns 2
 
 ## calling other be functions with helpers
 
-Be functions can call each other. State can be defined with the correct dependency order, allowing the be functions to be defined within modules without needing to list the state in the particular order. This is useful for reactive state dependencies. This is also useful for dev ops where an installation can have dependencies, ensuring each step only runs one time in the correct order. In this example, rmemo will be used to handle the async installs.
+Be functions can call each other. Defining state enforces the correct dependency load order. Loading any piece of state in the graph loads enforces the correct load order. This is useful for reactive state dependencies. This covers dev ops. Each step only runs one time in the correct order. In this example, rmemo handles async installs.
 
 [//]: @formatter:off
 ```ts
