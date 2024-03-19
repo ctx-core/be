@@ -1,5 +1,11 @@
 # @ctx-core/be
 
+## 0.2.0
+
+### Minor Changes
+
+- wide_ctx_T: widen type: fix incorrect type errors: - ctx_T&
+
 ## 0.1.20
 
 ### Patch Changes
