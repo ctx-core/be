@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/be",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "ctx-core be",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,11 @@
 		"url": "https://github.com/ctx-core/be.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-be@briantakita.me"
+	},
 	"files": [
 		"*.d.ts",
 		"*.js",
@@ -40,7 +44,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.1.1",

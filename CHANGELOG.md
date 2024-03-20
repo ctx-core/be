@@ -1,5 +1,13 @@
 # @ctx-core/be
 
+## 0.2.1
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 0.2.0
 
 ### Minor Changes
