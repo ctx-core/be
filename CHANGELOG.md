@@ -1,5 +1,12 @@
 # @ctx-core/be
 
+## 0.2.10
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@7.0.0
+
 ## 0.2.9
 
 ### Patch Changes
