@@ -12,7 +12,7 @@ A general purpose, modular, &amp; scalable context library for contextual state 
 |------------------|:-----:|
 | ctx_             | 33 B  |
 | ns_ctx_          | 85 B  |
-| be_              | 99 B  |
+| be_              | 101 B  |
 | be_ ctx_         | 131 B |
 | be_ ns_ctx_      | 191 B |
 | be_ ctx_ ns_ctx_ | 191 B |
