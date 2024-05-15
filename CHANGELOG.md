@@ -1,5 +1,11 @@
 # @ctx-core/be
 
+## 0.2.28
+
+### Patch Changes
+
+- ctx-core: ^7.2.8 -> ^7.2.9
+
 ## 0.2.27
 
 ### Patch Changes
