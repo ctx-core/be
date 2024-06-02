@@ -66,7 +66,7 @@ const i_am_rmemo$_ = be_(()=>{
 i_am_rmemo$_(ctx)       // prints 'I am a rmemo' & returns a memo
 i_am_rmemo$_(ctx)       // returns a memo
 i_am_rmemo$_(ctx)()     // returns 1
-i_am_rmemo$_(ctx)._ = 2 
+i_am_rmemo$_(ctx).set(2) 
 i_am_rmemo$_(ctx)()     // returns 2
 ```
 [//]: @formatter:on

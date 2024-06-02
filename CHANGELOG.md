@@ -1,5 +1,11 @@
 # @ctx-core/be
 
+## 0.2.33
+
+### Patch Changes
+
+- README: calling .set() on a rmemo: fix: use .set() instead of .\_ =
+
 ## 0.2.32
 
 ### Patch Changes
