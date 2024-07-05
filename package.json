@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/be",
-	"version": "0.2.45",
+	"version": "0.2.46",
 	"description": "ctx-core be",
 	"keywords": [
 		"ctx-core",
@@ -44,14 +44,14 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.26"
+		"ctx-core": "^7.2.27"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.1.4",
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
 		"size-limit": "^11.1.4",
-		"tsx": "^4.16.0",
+		"tsx": "^4.16.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
